@@ -1,15 +1,14 @@
 #!/usr/bin/env php
 <?php
-
-require_once '/home/vagrant/.composer/vendor/psy/psysh/bin/psysh';
-
-/**
- * Add breakpoints using \Psy\Shell::debug(get_defined_vars());
- *
- */
-
-
 $config = (include __DIR__.'/Config.php');
+
+if($config['psyshRootLocation'] && file_exists($config['psyshRootLocation'])){
+	require_once $config['psyshRootLocation'];
+}
+else{
+	echo 'There was a problem loading the PsySH library, check path or config';
+	exit;
+}
 
 if($config['bootstrapFile']){
 	require __DIR__.'/Bootstraps/'.$config['bootstrapFile'];
