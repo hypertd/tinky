@@ -2,12 +2,21 @@
 <?php
 
 require_once '/home/vagrant/.composer/vendor/psy/psysh/bin/psysh';
-require __DIR__.'/Projects/Laravel4_2.php';
 
-//breakpoint : \Psy\Shell::debug(get_defined_vars());
+/**
+ * Add breakpoints using \Psy\Shell::debug(get_defined_vars());
+ *
+ */
+
+
+$config = (include __DIR__.'/Config.php');
+
+if($config['bootstrapFile']){
+	require __DIR__.'/Bootstraps/'.$config['bootstrapFile'];
+}
 
 $config = new \Psy\Configuration();
-$config->loadConfigFile(__DIR__.'/PsyConfig.php');
+$config->loadConfigFile(__DIR__.'/Config.php');
 
 $shell = new \Psy\Shell($config);
 $shell->run();
