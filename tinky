@@ -10,12 +10,4 @@ else{
 	exit;
 }
 
-if($config['bootstrapFile']){
-	require __DIR__.'/Bootstraps/'.$config['bootstrapFile'];
-}
-
-$config = new \Psy\Configuration();
-$config->loadConfigFile(__DIR__.'/Config.php');
-
-$shell = new \Psy\Shell($config);
-$shell->run();
+require __DIR__.'/Start.php';
