@@ -1,0 +1,6 @@
+<?php
+
+return [
+    'psyshRootLocation' => '/path/to/psysh/.composer/vendor/psy/psysh/bin/psysh',
+    'bootstrapFile'     => 'Symfony2_1.php',
+];
