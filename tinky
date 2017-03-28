@@ -1,9 +1,9 @@
 #!/usr/bin/env php
 <?php
-$config = (include __DIR__.'/Config.php');
+$bootConfig  = (include __DIR__.'/Config.php');
 
-if($config['psyshRootLocation'] && file_exists($config['psyshRootLocation'])){
-	require_once $config['psyshRootLocation'];
+if($bootConfig['psyshRootLocation'] && file_exists($bootConfig['psyshRootLocation'])){
+	require_once $bootConfig['psyshRootLocation'];
 }
 else{
 	echo 'There was a problem loading the PsySH library, check path or config';

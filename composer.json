@@ -1,0 +1,12 @@
+{
+    "name": "root/tinky",
+    "authors": [
+        {
+            "name": "Matthew B",
+            "email": "matthewburgess.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "psy/psysh": "@stable"
+    }
+}
