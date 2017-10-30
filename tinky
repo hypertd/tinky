@@ -1,13 +1,9 @@
 #!/usr/bin/env php
 <?php
-$bootConfig  = (include __DIR__.'/Config.php');
+if (is_file(getcwd() . '/vendor/autoload.php')) {
+    require_once(getcwd() . '/vendor/autoload.php');
+}
 
-if($bootConfig['psyshRootLocation'] && file_exists($bootConfig['psyshRootLocation'])){
-	require_once $bootConfig['psyshRootLocation'];
-}
-else{
-	echo 'There was a problem loading the PsySH library, check path or config';
-	exit;
-}
+$bootConfig  = (include __DIR__.'/Config.php');
 
 require __DIR__.'/Start.php';

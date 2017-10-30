@@ -7,6 +7,11 @@
         }
     ],
     "require": {
-        "psy/psysh": "@stable"
+        "psy/psysh": "0.8.6",
+        "symfony/var-dumper": "~2.7",
+        "fzaninotto/faker": "^1.6",
+        "league/csv": "^8.2",
+        "symfony/symfony": "2.8.*",
+        "symfony/swiftmailer-bundle": "^3.1"
     }
 }
