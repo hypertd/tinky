@@ -1,2 +1,4 @@
 /Whiteboard*
 /vendor/
+include/*
+!include/.gitkeep
