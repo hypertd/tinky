@@ -1,3 +1,8 @@
 /Whiteboard*
+<<<<<<< HEAD
 /Config.php
+=======
+>>>>>>> 1f10d318233dd26beb4d19208e4f1b5f0e475f72
 /vendor/
+include/*
+!include/.gitkeep
