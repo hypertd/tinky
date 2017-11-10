@@ -17,6 +17,6 @@
         "psy/psysh": "^0.8.6",
         "fzaninotto/faker": "^1.6",
         "league/csv": "^8.2",
-        "webmozart/assert": "^1.2"
+        "webmozart/assert": "^1.2",
     }
 }
