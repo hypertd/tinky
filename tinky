@@ -8,7 +8,7 @@ $bootConfig = (include __DIR__.'/Config.php');
 
 //required framework
 $defaultIncludes = [
-    __DIR__.'/bootstraps/'.$bootConfig['bootstrapFile'],
+    __DIR__.'/core/bootstraps/'.$bootConfig['bootstrapFile'],
 ];
 
 //preset tools
