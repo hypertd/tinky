@@ -1,0 +1,796 @@
+[
+    {
+        "name": "webmozart/assert",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/webmozart/assert.git",
+            "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/webmozart/assert/zipball/2db61e59ff05fe5126d152bd0655c9ea113e550f",
+            "reference": "2db61e59ff05fe5126d152bd0655c9ea113e550f",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3 || ^7.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.6",
+            "sebastian/version": "^1.0.1"
+        },
+        "time": "2016-11-23T20:04:58+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Webmozart\\Assert\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Bernhard Schussek",
+                "email": "bschussek@gmail.com"
+            }
+        ],
+        "description": "Assertions to validate method input/output with nice error messages.",
+        "keywords": [
+            "assert",
+            "check",
+            "validate"
+        ]
+    },
+    {
+        "name": "fzaninotto/faker",
+        "version": "v1.7.1",
+        "version_normalized": "1.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/fzaninotto/Faker.git",
+            "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+            "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3.3 || ^7.0"
+        },
+        "require-dev": {
+            "ext-intl": "*",
+            "phpunit/phpunit": "^4.0 || ^5.0",
+            "squizlabs/php_codesniffer": "^1.5"
+        },
+        "time": "2017-08-15T16:48:10+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.8-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Faker\\": "src/Faker/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "François Zaninotto"
+            }
+        ],
+        "description": "Faker is a PHP library that generates fake data for you.",
+        "keywords": [
+            "data",
+            "faker",
+            "fixtures"
+        ]
+    },
+    {
+        "name": "league/csv",
+        "version": "8.2.2",
+        "version_normalized": "8.2.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/thephpleague/csv.git",
+            "reference": "fa8bc05f64eb6c66b96edfaf60648f022ecb5f55"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/thephpleague/csv/zipball/fa8bc05f64eb6c66b96edfaf60648f022ecb5f55",
+            "reference": "fa8bc05f64eb6c66b96edfaf60648f022ecb5f55",
+            "shasum": ""
+        },
+        "require": {
+            "ext-mbstring": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "friendsofphp/php-cs-fixer": "^1.9",
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2017-07-12T07:18:20+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "8.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "League\\Csv\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ignace Nyamagana Butera",
+                "email": "nyamsprod@gmail.com",
+                "homepage": "https://github.com/nyamsprod/",
+                "role": "Developer"
+            }
+        ],
+        "description": "Csv data manipulation made easy in PHP",
+        "homepage": "http://csv.thephpleague.com",
+        "keywords": [
+            "csv",
+            "export",
+            "filter",
+            "import",
+            "read",
+            "write"
+        ]
+    },
+    {
+        "name": "guzzlehttp/promises",
+        "version": "v1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/promises.git",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/promises/zipball/a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "reference": "a59da6cf61d80060647ff4d3eb2c03a2bc694646",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^4.0"
+        },
+        "time": "2016-12-20T10:07:11+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Promise\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle promises library",
+        "keywords": [
+            "promise"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "guzzlehttp/psr7",
+        "version": "1.4.2",
+        "version_normalized": "1.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "reference": "f5b8a8512e2b58b0071a7280e39f14f72e05d87c",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0"
+        },
+        "time": "2017-03-20T17:10:46+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "guzzlehttp/guzzle",
+        "version": "6.3.0",
+        "version_normalized": "6.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/guzzle/guzzle.git",
+            "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+            "reference": "f4db5a78a5ea468d4831de7f0bf9d9415e348699",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/promises": "^1.0",
+            "guzzlehttp/psr7": "^1.4",
+            "php": ">=5.5"
+        },
+        "require-dev": {
+            "ext-curl": "*",
+            "phpunit/phpunit": "^4.0 || ^5.0",
+            "psr/log": "^1.0"
+        },
+        "suggest": {
+            "psr/log": "Required for using the Log middleware"
+        },
+        "time": "2017-06-22T18:50:49+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/functions_include.php"
+            ],
+            "psr-4": {
+                "GuzzleHttp\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            }
+        ],
+        "description": "Guzzle is a PHP HTTP client library",
+        "homepage": "http://guzzlephp.org/",
+        "keywords": [
+            "client",
+            "curl",
+            "framework",
+            "http",
+            "http client",
+            "rest",
+            "web service"
+        ]
+    },
+    {
+        "name": "symfony/polyfill-mbstring",
+        "version": "v1.6.0",
+        "version_normalized": "1.6.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/polyfill-mbstring.git",
+            "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+            "reference": "2ec8b39c38cb16674bbf3fea2b6ce5bf117e1296",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.3"
+        },
+        "suggest": {
+            "ext-mbstring": "For best performance"
+        },
+        "time": "2017-10-11T12:05:26+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Polyfill\\Mbstring\\": ""
+            },
+            "files": [
+                "bootstrap.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Nicolas Grekas",
+                "email": "p@tchwork.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony polyfill for the Mbstring extension",
+        "homepage": "https://symfony.com",
+        "keywords": [
+            "compatibility",
+            "mbstring",
+            "polyfill",
+            "portable",
+            "shim"
+        ]
+    },
+    {
+        "name": "symfony/dom-crawler",
+        "version": "v3.3.13",
+        "version_normalized": "3.3.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/dom-crawler.git",
+            "reference": "cebe3c068867956e012d9135282ba6a05d8a259e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/dom-crawler/zipball/cebe3c068867956e012d9135282ba6a05d8a259e",
+            "reference": "cebe3c068867956e012d9135282ba6a05d8a259e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/polyfill-mbstring": "~1.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/css-selector": ""
+        },
+        "time": "2017-11-05T15:47:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\DomCrawler\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony DomCrawler Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/css-selector",
+        "version": "v3.3.13",
+        "version_normalized": "3.3.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/css-selector.git",
+            "reference": "66e6e046032ebdf1f562c26928549f613d428bd1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/css-selector/zipball/66e6e046032ebdf1f562c26928549f613d428bd1",
+            "reference": "66e6e046032ebdf1f562c26928549f613d428bd1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8"
+        },
+        "time": "2017-11-05T15:47:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\CssSelector\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jean-François Simon",
+                "email": "jeanfrancois.simon@sensiolabs.com"
+            },
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony CssSelector Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "symfony/browser-kit",
+        "version": "v3.3.13",
+        "version_normalized": "3.3.13.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/browser-kit.git",
+            "reference": "03f957cd24bf939524f07b8b910c89cfcad722a8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/browser-kit/zipball/03f957cd24bf939524f07b8b910c89cfcad722a8",
+            "reference": "03f957cd24bf939524f07b8b910c89cfcad722a8",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.5.9|>=7.0.8",
+            "symfony/dom-crawler": "~2.8|~3.0"
+        },
+        "require-dev": {
+            "symfony/css-selector": "~2.8|~3.0",
+            "symfony/process": "~2.8|~3.0"
+        },
+        "suggest": {
+            "symfony/process": ""
+        },
+        "time": "2017-11-07T14:12:55+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.3-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\BrowserKit\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony BrowserKit Component",
+        "homepage": "https://symfony.com"
+    },
+    {
+        "name": "fabpot/goutte",
+        "version": "v3.2.1",
+        "version_normalized": "3.2.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/FriendsOfPHP/Goutte.git",
+            "reference": "db5c28f4a010b4161d507d5304e28a7ebf211638"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/FriendsOfPHP/Goutte/zipball/db5c28f4a010b4161d507d5304e28a7ebf211638",
+            "reference": "db5c28f4a010b4161d507d5304e28a7ebf211638",
+            "shasum": ""
+        },
+        "require": {
+            "guzzlehttp/guzzle": "^6.0",
+            "php": ">=5.5.0",
+            "symfony/browser-kit": "~2.1|~3.0",
+            "symfony/css-selector": "~2.1|~3.0",
+            "symfony/dom-crawler": "~2.1|~3.0"
+        },
+        "time": "2017-01-03T13:21:43+00:00",
+        "type": "application",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "3.2-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Goutte\\": "Goutte"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            }
+        ],
+        "description": "A simple PHP Web Scraper",
+        "homepage": "https://github.com/FriendsOfPHP/Goutte",
+        "keywords": [
+            "scraper"
+        ]
+    },
+    {
+        "name": "klein/klein",
+        "version": "v2.1.2",
+        "version_normalized": "2.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/klein/klein.php.git",
+            "reference": "6549676cc831b9417332b3d9485c64bbf7bac728"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/klein/klein.php/zipball/6549676cc831b9417332b3d9485c64bbf7bac728",
+            "reference": "6549676cc831b9417332b3d9485c64bbf7bac728",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "require-dev": {
+            "phpunit/php-code-coverage": "^2.2",
+            "phpunit/phpunit": "^4.8",
+            "squizlabs/php_codesniffer": "1.4.8"
+        },
+        "time": "2017-02-01T23:08:58+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Klein\\": "src/Klein/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Chris O'Hara",
+                "email": "cohara87@gmail.com",
+                "homepage": "http://chris6f.com/",
+                "role": "Creator/Developer"
+            },
+            {
+                "name": "Trevor Suarez",
+                "email": "rican7@gmail.com",
+                "homepage": "https://trevorsuarez.com/",
+                "role": "Contributor/Developer"
+            }
+        ],
+        "description": "A lightning fast router for PHP",
+        "homepage": "https://github.com/klein/klein.php",
+        "keywords": [
+            "boilerplate",
+            "router",
+            "routing",
+            "sinatra"
+        ]
+    },
+    {
+        "name": "devster/ubench",
+        "version": "2.0.0",
+        "version_normalized": "2.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/devster/ubench.git",
+            "reference": "255dd8d52f097918c5806f9214a8a1615ee394b5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/devster/ubench/zipball/255dd8d52f097918c5806f9214a8a1615ee394b5",
+            "reference": "255dd8d52f097918c5806f9214a8a1615ee394b5",
+            "shasum": ""
+        },
+        "require-dev": {
+            "phpunit/phpunit": "*"
+        },
+        "time": "2017-11-02T16:41:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-0": {
+                "Ubench": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Jeremy Perret",
+                "email": "jeremy@devster.org"
+            }
+        ],
+        "description": "Micro PHP library for benchmarking",
+        "homepage": "https://github.com/devster/ubench",
+        "keywords": [
+            "bench",
+            "benchmark",
+            "library",
+            "micro"
+        ]
+    }
+]

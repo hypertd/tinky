@@ -1,0 +1,18 @@
+{
+    "name": "tinky/tools",
+    "authors": [
+        {
+            "name": "Matthew B",
+            "email": "matthewburgess.dev@gmail.com"
+        }
+    ],
+    "require": {
+        "fzaninotto/faker": "^1.6",
+        "league/csv": "^8.2",
+        "webmozart/assert": "^1.2",
+        "guzzlehttp/guzzle": "^6.3",
+        "fabpot/goutte": "^3.2",
+        "klein/klein": "^2.1",
+        "devster/ubench": "^2.0"
+    }
+}

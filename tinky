@@ -1,14 +1,15 @@
 #!/usr/bin/env php
 <?php
-if (is_file(getcwd() . '/vendor/autoload.php')) {
-    require_once(getcwd() . '/vendor/autoload.php');
-}
+//psysh loader
+$psyLoader = require __DIR__ . '/vendor/autoload.php';
 
+//config setup
 $bootConfig = (include __DIR__.'/Config.php');
 
 //required framework
 $defaultIncludes = [
-    __DIR__.'/core/bootstraps/'.$bootConfig['bootstrapFile'],
+    __DIR__.'/core/tools/adapter/Adapters.php',
+    __DIR__.'/core/bootstraps/'.$bootConfig['bootstrapFile']
 ];
 
 //preset tools
