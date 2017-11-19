@@ -1,6 +1,7 @@
+Tinky project has been inspired and built on Psysh (http://psysh.org/).
 
-Add this to you .profile or .bashrc to shortcut the tinky script
-alias tinky="php ./tinky"
+You can check the SETUP.md to get started.
 
-Use to debug inside you application.
+Helpful tips here ~
+
 \Psy\Shell::debug(get_defined_vars());
