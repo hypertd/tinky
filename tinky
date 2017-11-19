@@ -1,16 +1,22 @@
 #!/usr/bin/env php
 <?php
 //psysh loader
-$psyLoader = require __DIR__ . '/vendor/autoload.php';
+if(file_exists(__DIR__ . '/vendor/autoload.php')){
+    $psyLoader = require_once __DIR__ . '/vendor/autoload.php';
+}
 
 //config setup
 $bootConfig = (include __DIR__.'/Config.php');
 
-//required framework
+//defaults framework
 $defaultIncludes = [
-    __DIR__.'/core/tools/adapter/Adapters.php',
-    __DIR__.'/core/bootstraps/'.$bootConfig['bootstrapFile']
+    __DIR__.'/core/tools/adapter/Adapters.php'
 ];
+
+//framework if set
+if(isset($bootConfig['bootstrapFile']) && file_exists(__DIR__.'/core/bootstraps/'.$bootConfig['bootstrapFile'])){
+    $defaultIncludes[] = __DIR__.'/core/bootstraps/'.$bootConfig['bootstrapFile'];
+}
 
 //preset tools
 // foreach (glob("tools/*.php") as $filename){
