@@ -1,8 +1,7 @@
 /Whiteboard*
 /vendor/
 workbench/*
-!workbench/tools
-!workbench/tools/*
-workbench/vendor/
+!workbench/composer.json
 !workbench/.gitkeep
+!workbench/.gitignore
 index.php

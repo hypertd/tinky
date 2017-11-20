@@ -1,6 +1,4 @@
 <?php
-require __DIR__."/Functions.php";
-
 class Tinky{
     public $root;
     
@@ -10,7 +8,7 @@ class Tinky{
         $root = $this->root = __DIR__ . '/..';
         
         $this->defaultIncludes = [
-            __DIR__."/../Whiteboard.php"
+           $root."/Whiteboard.php"
         ];
             
         //required config setup

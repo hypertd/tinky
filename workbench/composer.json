@@ -6,6 +6,11 @@
             "email": "matthewburgess.dev@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+          "Workbench\\": "src/"
+        }
+    },
     "require": {
         "fzaninotto/faker": "^1.6",
         "league/csv": "^8.2",
