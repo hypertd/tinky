@@ -1,5 +1,8 @@
 /Whiteboard*
 /vendor/
 workbench/*
+!workbench/tools
+!workbench/tools/*
+workbench/vendor/
 !workbench/.gitkeep
 index.php
