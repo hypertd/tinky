@@ -4,7 +4,7 @@ if(file_exists(__DIR__ . '/../vendor/autoload.php')){
     $psyLoader = require_once __DIR__ . '/../vendor/autoload.php';
 }
 else{
-    echo 'Please run composer install';
+    echo "Please run composer install\n";
     exit;
 }
 

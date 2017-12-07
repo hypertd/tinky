@@ -7,17 +7,15 @@ class Tinky{
     public function __construct(){
         $root = $this->root = __DIR__ . '/..';
         
-        $this->defaultIncludes = [
-           $root."/Whiteboard.php"
-        ];
-            
         //required config setup
-        $this->bootConfig = (include $root.'/Config.php');
+        $this->bootConfig = (include $this->root.'/Config.php');
         
         //framework if set
-        if(isset($this->bootConfig['bootstrapFile']) && file_exists(__DIR__.'/core/bootstraps/'.$this->bootConfig['bootstrapFile'])){
-            $this->defaultIncludes[] = $root.'/core/bootstraps/'.$bootConfig['bootstrapFile'];
+        if(isset($this->bootConfig['bootstrapFile']) && file_exists($this->root.'/core/bootstraps/'.$this->bootConfig['bootstrapFile'])){
+            $this->defaultIncludes[] = $this->root.'/core/bootstraps/'.$this->bootConfig['bootstrapFile'];
         }
+        
+        $this->defaultIncludes[] = $root."/Whiteboard.php";
     }
     
     public function shell(){
