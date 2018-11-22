@@ -1,6 +1,9 @@
 /Whiteboard*
 /vendor/
-workbench/*
+workbench/vendor/
+workbench/tests/*
+workbench/composer.lock
+!workbench/tests/.gitkeep
 !workbench/composer.json
 !workbench/.gitkeep
 !workbench/.gitignore
