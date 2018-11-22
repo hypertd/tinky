@@ -1,13 +1,13 @@
 <?php
+
 //psysh loader
 if(file_exists(__DIR__ . '/../vendor/autoload.php')){
-    $psyLoader = require_once __DIR__ . '/../vendor/autoload.php';
+    require __DIR__ . '/../vendor/autoload.php';
 }
 else{
     echo "Please run composer install\n";
     exit;
 }
 
-require 'Tinky.php';
-$tinky = new Tinky();
+$tinky = new Tinky\Tinky();
 $tinky->shell();

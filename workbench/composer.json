@@ -8,7 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Workbench\\": "src/"
+          "Tinky\\": "src/"
         }
     },
     "require": {
@@ -19,6 +19,9 @@
         "fabpot/goutte": "^3.2",
         "devster/ubench": "^2.0",
         "mikecao/flight": "^1.3",
-        "nikic/fast-route": "^1.2"
+        "phpspec/php-diff": "^1.1",
+        "pitpit/php-diff": "@dev",
+        "wp-cli/php-cli-tools": "^0.11.10",
+        "phpunit/phpunit": "^7.4"
     }
 }

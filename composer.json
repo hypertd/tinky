@@ -8,9 +8,7 @@
     ],
     "autoload": {
         "psr-4": {
-          "Tinky\\": "core/",
-          "Tinky\\Workbench\\": "workbench/"
-          
+          "Tinky\\": "core/"
         }
     },
     "require": {
