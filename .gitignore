@@ -8,3 +8,4 @@ workbench/composer.lock
 !workbench/.gitkeep
 !workbench/.gitignore
 index.php
+Config.php
