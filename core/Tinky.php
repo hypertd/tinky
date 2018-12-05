@@ -12,13 +12,6 @@ class Tinky{
         //required config setup
         $this->bootConfig = (include $this->root.'/Config.php');
 
-        //core commands
-        $commands = [
-            new Command\PhpunitCommand
-        ];
-
-        $this->addCommands($commands); 
-
         //framework if set
         if(isset($this->bootConfig['bootstrapFile']) && file_exists($this->root.'/bootstraps/'.$this->bootConfig['bootstrapFile'])){
             $this->addDefaultInclude($this->root.'/bootstraps/'.$this->bootConfig['bootstrapFile']);
@@ -47,12 +40,10 @@ class Tinky{
             if(isset($options["empty"]));
         }
         else{
-            $this->addDefaultInclude($root."/workbench/tests/Whiteboard.php");
+            if(file_exists($root."/workbench/tests/Whiteboard.php")){
+                $this->addDefaultInclude($root."/workbench/tests/Whiteboard.php");
+            }
         }
-    }
-
-    public function addCommands(array $commands){
-        $this->bootConfig = array_merge($this->bootConfig, array('commands' =>$commands));
     }
 
     public function addDefaultInclude($path){

@@ -120,7 +120,7 @@ class Shell extends \Psy\Shell
      */
     public static function debug(array $vars = array(), $boundObject = null)
     {
-        return \Psy\debug($vars, $boundObject);
+        return \Tinky\debug($vars, $boundObject);
     }
 
     /**
@@ -180,12 +180,14 @@ class Shell extends \Psy\Shell
             new Command\DocCommand(),
             new Command\ShowCommand($this->config->colorMode()),
             new Command\WtfCommand($this->config->colorMode()),
-            new Command\WhereamiCommand($this->config->colorMode()),
+            new \Tinky\Command\WhereamiCommand($this->config->colorMode()),
             new Command\ThrowUpCommand(),
             new Command\TraceCommand(),
             new Command\BufferCommand(),
             new Command\ClearCommand(),
             new Command\EditCommand($this->config->getRuntimeDir()),
+            new \Tinky\Command\PhpunitCommand,
+            new \Tinky\Command\OpenStackCommand,
             // new Command\PsyVersionCommand(),
             $sudo,
             $hist,

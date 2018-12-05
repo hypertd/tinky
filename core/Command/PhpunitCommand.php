@@ -1,14 +1,5 @@
 <?php
 
-/*
- * This file is part of Psy Shell.
- *
- * (c) 2012-2017 Justin Hileman
- *
- * For the full copyright and license information, please view the LICENSE
- * file that was distributed with this source code.
- */
-
 namespace Tinky\Command;
 
 use Psy\Output\ShellOutput;
@@ -23,7 +14,7 @@ use Tinky\Command\PassthroughCommand;
  *
  * Shows and clears the buffer for the current multi-line expression.
  */
-class PhpunitCommand extends PassthroughCommand
+class PhpunitCommand extends \Psy\Command\Command
 {
     /**
      * {@inheritdoc}

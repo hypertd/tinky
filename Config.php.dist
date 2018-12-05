@@ -1,5 +1,6 @@
 <?php
 
 return [
-    //'bootstrapFile'     => 'Symfony2_8.php'
+	//'bootstrapFile'     => 'Laravel5_5.php'
+    'bootstrapFile'     => 'look in /bootstraps for examples'
 ];
